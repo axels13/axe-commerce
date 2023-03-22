@@ -1,1 +1,2 @@
-Un desarrollador front-end Jr altamente motivado y apasionado por el desarrollo web con experiencia en HTML, CSS, JavaScript, React, Sass y Bootstrap. Busco una oportunidad para aplicar mis habilidades y aprender más en un entorno de trabajo desafiante.
+
+![e-commerce](https://user-images.githubusercontent.com/82186756/226971096-3cbf3b35-e371-44ac-9df7-7c3abf06e518.png)
