@@ -1,0 +1,133 @@
+
+.nav_container .nav_logo{
+    padding-left: 4rem;
+    
+}
+header{
+    height: 150px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    overflow: hidden;
+}
+.nav_container{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    justify-content: space-around;
+}
+
+.nav_container ul li {
+    list-style: none;
+}
+.nav_container ul li  a {
+    text-decoration: none;
+    color:#222;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.nav_container ul li  a:hover{
+    text-decoration: underline;
+}
+.cart{
+    font-size: 1.5rem;
+  cursor:pointer;
+}
+
+
+.cart-count{
+  background-color: rgb(243, 10, 10);
+  border-radius: 50%;
+    padding: 0.05rem 0.5rem;
+  color: #fff;
+  font-weight: 600;
+
+}
+.nav_btn{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 30px;
+    display: none;
+    position: absolute;
+    z-index: 1000;
+}
+
+.nav_desk{
+    display: flex;
+    justify-content:space-between;
+}
+.nav_mobile {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap:5rem;
+    top: 0;
+    bottom: 0px;
+    left: -100%;
+    width: 100%;
+    height: calc(100vh - 10px);
+    background-color: #fff;
+    z-index: 100;
+    transition: all 0.6s ease-in-out;
+
+  }
+  .nav_mobile li a , .cart  {
+    padding-left:1rem ;
+  }
+  .nav_mobile.active {
+    left: 0;
+  }
+
+  .nav_logo {
+    width: 200px;
+    position: relative;
+    
+  }
+
+
+  
+  .nav_container ul li {
+    margin-right: 30px;
+  }
+  
+  .nav_container ul li:last-child {
+    margin-right: 0;
+  }
+  
+ 
+  
+  .nav_btn {
+    display: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .nav_desk {
+        display: none;
+      }
+
+      .nav_btn{
+        display: block;
+      }
+      .nav_logo{
+        right:80%;
+       margin-top: 1rem;
+      }
+      
+  }
+
+  @media screen and (max-width:992px){
+    .cart-count{
+      position: absolute;
+      right: 2.2rem;
+      
+      padding: 0 0.3rem;
+    }
+    .nav_container ul li  a{
+      font-size: 1rem;
+    }
+  }

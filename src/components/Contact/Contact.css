@@ -1,0 +1,28 @@
+.contact__container{
+    background-color: #222;
+    height: 13rem; 
+
+}
+.contact__card{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+   gap:1rem;
+}
+
+.contact__card h2{
+    color: #f4f4f4ff;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+
+.contact__card input{
+    padding: 0.3rem
+}
+
+.contact__card button{
+    padding: 0.3rem;
+    margin-left: 0.3rem;
+    font-weight: 400;
+}

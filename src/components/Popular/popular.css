@@ -1,0 +1,35 @@
+#popular{
+    max-width: 1200px;
+    margin:2rem auto;
+}
+
+.popular__container{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+   padding: 1rem 0.6rem;
+}
+
+.popular__card img {
+    width: 100%;
+}
+
+.popular__card{
+    border: 3px solid #ccc;
+    cursor: pointer;
+}
+.popular__card .popular__text{
+    padding-left: 0.5rem;
+    margin-bottom: 0.4rem;
+}
+
+
+.popular__card .popular__text h4{
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.popular__card .popular__text span{
+    font-weight: 800;
+    
+}
